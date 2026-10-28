@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">网络模式切换</string>
+    <string name="tile_name">4G/5G</string>
+    <string name="tile_desc">点击在当前上网卡上切换 5G / 4G 模式</string>
+
+    <string name="mode_unknown">—</string>
+    <string name="page_hint">应用无桌面图标：下拉面板点按磁贴即可切换；长按磁贴回到本页。首次使用请完成下方授权。</string>
+    <string name="section_privacy">授权与状态</string>
+    <string name="section_config">配置</string>
+    <string name="section_debug">调试（开发期使用）</string>
+
+    <string name="status_title">Shizuku 状态</string>
+    <string name="grant_shizuku">请求 Shizuku 授权</string>
+    <string name="open_shizuku">打开 Shizuku</string>
+    <string name="mode_5g">切到 5G</string>
+    <string name="mode_4g">切到 4G</string>
+    <string name="refresh">刷新状态</string>
+    <string name="target_slot_label">目标卡槽</string>
+    <string name="slot_auto">自动（跟随当前上网卡）</string>
+    <string name="slot_0">卡槽 1</string>
+    <string name="slot_1">卡槽 2</string>
+    <string name="custom_cmd_label">自定义提权命令</string>
+    <string name="run_cmd">执行</string>
+    <string name="cmd_hint">例如 cmd telephony get-allowed-network-types-for-users -s 0</string>
+
+    <string name="toast_shizuku_not_ready">Shizuku 未启动或未授权，请先完成授权</string>
+    <string name="toast_switch_done">已切换为 %1$s 模式</string>
+    <string name="toast_switch_failed">切换失败，请打开设置页查看日志</string>
+    <string name="toast_switching">正在切换…</string>
+    <string name="tile_switching">切换中…</string>
+    <string name="sim_info_unknown">无法读取订阅信息，请授予电话权限</string>
+    <string name="diag">诊断</string>
+    <string name="cb_rescan">切换后自动重新搜网（binder 通道下无需开启）</string>
+
+    <string-array name="slot_options">
+        <item>@string/slot_auto</item>
+        <item>@string/slot_0</item>
+        <item>@string/slot_1</item>
+    </string-array>
+</resources>
